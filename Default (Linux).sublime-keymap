@@ -13,5 +13,21 @@
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
     ]
+  },
+
+  {
+    "keys": ["shift+f10"],
+    "command": "open_project_folder",
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
+  },
+
+  {
+    "keys": ["ctrl+shift+f10"],
+    "command": "open_file_folder",
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   }
 ]
