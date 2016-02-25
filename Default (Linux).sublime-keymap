@@ -1,33 +1,21 @@
 [
   {
     "keys": ["f10"],
-    "command": "open_project_folder",
-    "context": [
-      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-    ]
+    "command": "open_folder", "args" : {"folder" : "project", "where" : "file_manager"}
   },
 
   {
     "keys": ["ctrl+f10"],
-    "command": "open_file_folder",
-    "context": [
-      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-    ]
+    "command": "open_folder", "args" : {"folder" : "file", "where" : "file_manager"}
   },
 
   {
     "keys": ["shift+f10"],
-    "command": "open_project_folder",
-    "context": [
-      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-    ]
+    "command": "open_folder", "args" : {"folder" : "project", "where" : "terminal"}
   },
 
   {
     "keys": ["ctrl+shift+f10"],
-    "command": "open_file_folder",
-    "context": [
-      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-    ]
+    "command": "open_folder", "args" : {"folder" : "file", "where" : "terminal"}
   }
 ]
